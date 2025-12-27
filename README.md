@@ -23,11 +23,12 @@ Project ini berisi script Python yang:
 - Menghasilkan file Python lain
 - File hasilnya berisi **1 juta baris**
 - Setiap baris adalah:
+
   ```python
   print("Cowok: ...")
   print("Cewek: ...")
 ````
-
+---
 * Percakapan bersifat:
 
   * Acak
@@ -41,14 +42,14 @@ Project ini berisi script Python yang:
 
 ### 1. Clone repository
 
-```bash
-git clone https://github.com/username/sejuta-baris-percakapan.git
-cd sejuta-baris-percakapan
+```cmd
+git clone https://github.com/zero0-sys/one-million-lines-dialog.git
+cd one-million-lines-dialog
 ```
 
 ### 2. Jalankan generator
 
-```bash
+```cmd
 python generate.py
 ```
 
